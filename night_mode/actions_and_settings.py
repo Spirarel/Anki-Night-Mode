@@ -251,7 +251,7 @@ class EnableNightMode(Setting, MenuAction):
     """Switch night mode"""
     value = False
     label = '&Enable night mode'
-    shortcut = 'Ctrl+n'
+    shortcut = 'alt+n'
     checkable = True
 
     require = {
